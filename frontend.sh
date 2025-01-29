@@ -59,4 +59,4 @@ cp /home/ec2-user/expense-project-using-shell-script/expense.conf /etc/nginx/def
 VALIDATE $? "Copied expense config"
 
 systemctl restart nginx &>>$LOG_FILE_NAME
-VALIDATE $? "Restarting nginx"
+VALIDATE $? "Restarting nginx" 
